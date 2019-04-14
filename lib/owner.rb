@@ -9,6 +9,10 @@ def initialize(species)
      @pets = {:fishes => [], :dogs => [], :cats => []}
 end
 
+def self.all
+  
+
+
 def self.clear
   OWNERS.clear
 end
