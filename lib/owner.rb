@@ -5,6 +5,8 @@ class Owner
   
 def initialize(species)
     @species = species
+    OWNERS << self
+    
 end
 
 def self.clear
