@@ -10,7 +10,8 @@ def initialize(species)
 end
 
 def self.all
-  
+  OWNERS
+end
 
 
 def self.clear
