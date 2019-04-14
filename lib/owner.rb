@@ -13,12 +13,7 @@ def self.all
   OWNERS
 end
 
-def reset_all
-  self.reset
-  
-
-
-def self.clear
+def self.reset_all
   OWNERS.clear
 end
 
